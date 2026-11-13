@@ -1,0 +1,18 @@
+[project]
+name = "ventur"
+version = "0.1.0"
+description = "Ventur: control de inventario y ventas"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "flet==1.1.0",
+]
+
+[tool.flet]
+org = "mx.ventur"          # identificador de la app en Android (ej. mx.ventur.ventur)
+product = "Ventur"         # nombre que aparece bajo el icono en la tableta
+company = "Ventur"
+copyright = "Copyright (C) 2026 Ventur"
+
+[tool.flet.app]
+path = "src"               # aquí vive main.py
